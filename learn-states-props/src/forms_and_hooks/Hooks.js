@@ -12,6 +12,7 @@ useEffect(() => {
 
     return () => {
         console.log('unmounting component');
+        // becoz first of all unmounting hoti hai and then state counter increment hota hai
     }
 })
 
